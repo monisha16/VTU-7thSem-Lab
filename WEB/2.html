@@ -1,0 +1,40 @@
+<html>
+
+<body>
+
+	<h1 align="center" style="color:blueviolet;">Squares and Cubes of the Numbers from 0 to 10</h1>
+	<table align="center" border=1>
+	<tr><td  style="color:blueviolet;" >Number</td><td>Square</td><td>Cube</td></tr>
+		<script type="text/javascript">
+			
+			for(var n=0; n<=10; n++)
+			{	
+				document.write( "<tr><td>" + n + "</td><td>" + n*n + "</td><td>" + n*n*n+ "</td></tr>" ) ;
+			}
+		</script>
+	</table>
+
+</body>
+
+</html>
+
+<!-- If the external/internal asks for modifications such as :
+
+1. Coloring each cell with different colors, then:
+
+<script>
+	var r=0,b=0,g=0;
+	for(var n=0; n<=10; n++)
+	{	
+		r+=50; g+=20; b+=30;
+		document.write( "<tr><td style='color:rgb("+r+",155,20);'>" + n + "</td><td style='color:rgb(155,"+g+",20);'>" + n*n + "</td><td style='color:rgb(140,20,"+b+");'>" + n*n*n+ "</td></tr>" ) ;
+	}
+</script>
+
+2. Printing only odd/even numbers:
+
+	For odd:
+		for(var n=1; n<=10; n+=2)
+	For even:
+	for(var n=0; n<=10; n+=2) -->
+	

@@ -1,0 +1,33 @@
+<?xml-stylesheet type="text/css" href="test.css" ?>
+<!DOCTYPE HTML>
+<html>
+<head>
+<h6> STUDENTS DESCRIPTION </h6>
+</head>
+<students>
+	<student>
+		<USN>USN: 4SF16CS051</USN>
+		<name>NAME : GAVIN</name>
+		<college>COLLEGE : SCEM</college>
+		<branch>BRANCH : Computer Science and Engineering</branch>
+		<year>YEAR : 2016</year>
+		<e-mail>E-Mail : gavin@gmail.com</e-mail>
+	</student>
+	<student>
+		<USN>USN : 4SF16IS001</USN>
+		<name>NAME : ABHISHEK</name>
+		<college>COLLEGE : SCEM</college>
+		<branch>BRANCH : Information Science and Engineering</branch>
+		<year>YEAR : 2016</year>
+		<e-mail>E-Mail : abhishek@gmail.com</e-mail>
+	</student>
+	<student>
+		<USN>USN : 4SF16EC090</USN>
+		<name>NAME : ROHAN</name>
+		<college>COLLEGE : SCEM</college>
+		<branch>BRANCH : Electronics and Communication Engineering</branch>
+		<year>YEAR : 2016</year>
+		<e-mail>E-Mail : rohan@gmail.com</e-mail>
+	</student>
+</students>
+</html>
