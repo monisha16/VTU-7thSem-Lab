@@ -1,5 +1,4 @@
 # VTU-7thSem-Lab
-Repo with programs for the Machine Learning Lab (15CSL76). All the programs are in `.ipnyb` Jupyter notebook format.
 
 ## Instructions
 - If you open this repo on your phone, make sure to switch to a Desktop Version of the site to see the notebooks in your browser
@@ -10,6 +9,7 @@ Repo with programs for the Machine Learning Lab (15CSL76). All the programs are 
 - Select the notebook/program and start executing! 👨‍💻👩‍💻
 
 ## MACHINE LEARNING 💻
+- Some fo the programs for the Machine Learning Lab (15CSL76) are in `.ipnyb` Jupyter notebook format.
 ## Dependencies and Modules used
 - [Python](https://www.python.org)
 - [Jupyter](http://jupyter.org)
