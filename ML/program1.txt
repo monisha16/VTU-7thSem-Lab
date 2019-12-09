@@ -1,0 +1,24 @@
+import csv
+h=[0,0,0,0,0,0]
+ph=[]
+nh=[]
+with open("c1.csv") as csvfile:
+    csvreader=csv.reader(csvfile)
+    for i in csvreader:
+        if i[7]=="yes":
+            ph.append(i[1:len(i)-1])
+            if h[0]==0:
+                h=i[1:7]
+            else:
+                for k in range(1,len(i)-1):
+                    if i[k]!=h[k-1]:
+                        h[k-1]="?"
+        else:
+            nh.append(i[1:len(i)-1])
+    print("Positive Hypothesis :\n",ph)
+    print("Negative Hypothesis :\n",nh)
+    print("Maximally Specific Hypothesis :\n",h)
+
+ 
+
+#Check the dataset before executing this code. Make changes accordingly.
