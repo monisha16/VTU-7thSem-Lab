@@ -104,9 +104,11 @@
 </html>
 
 <!-- Commands to be written in terminal for the execution of this code:
-	mysql -u root -p
-	create database database_name
-	use database_name
-	create table table_name(usn varchar(20), name varchar(20), address varchar(20));
-	insert into table table_name('4SF16CS095','MONISHA','ADYAR'); 
-	[Enter nearly 4-5 data into the table] -->
+	1.mysql -u root -p
+	2.create database database_name
+	3.use database_name
+	4.create table table_name(usn varchar(20), name varchar(20), address varchar(20));
+	5.insert into table table_name('4SF16CS095','MONISHA','ADYAR'); 
+		[Enter nearly 4-5 data into the table]
+	6.commit
+-->
